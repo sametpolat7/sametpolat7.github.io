@@ -9,17 +9,19 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Europe/Istanbul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
 title: Samet Polat # the main title
 
-tagline: nothing is true everything is permitted # it will display as the sub-title
+tagline: |
+  part-time writer
+  full-time learner
 
 description: >- # used by seo meta and the atom feed
-  Samet Polat Blog
+  Samet Polat Blog Site
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -38,8 +40,7 @@ social:
   email: samet.polat59@hotmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://sametpolat7.medium.com/ # change to your twitter homepage
-    - https://github.com/sametpolat7 # change to your github homepage
+    - https://github.com/sametpolat7 # change to your github homepages
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -96,7 +97,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: assets/img/avatar/avatar.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
